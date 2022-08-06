@@ -76,7 +76,7 @@ span {
   bottom: 0;
   background-color: #ccc;
   -webkit-transition: 0.4s;
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -88,7 +88,7 @@ span {
   bottom: 4px;
   background-color: white;
   -webkit-transition: 0.4s;
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -116,8 +116,7 @@ input:checked + .slider:before {
 .switch-checkbox {
   padding: 10px;
 }
-.content {
-}
+
 .hitam {
   margin: auto;
   display: block;
